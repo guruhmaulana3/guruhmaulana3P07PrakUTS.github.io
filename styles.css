@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #610ca7;
+}
+
+header {
+    display: inline;
+    text-align: left;
+}
+
+header .head {
+    font-size: 20px;
+    padding: 60px;
+    text-align: center;
+    color: white;
+    background-color: hsl(249, 84%, 53%);
+}
+
+main {
+	padding: 20px;
+	overflow: auto;
+}
+
+main #content {
+    float: left;
+    width: 75%;
+}
+
+main aside {
+	float: right;
+	width: 25%;
+	padding-left: 20px;
+}
+
+main aside section img {
+    padding: 10px;
+}
+
+main aside section img:hover {
+    opacity: 0.7;
+}
+
+footer {
+	padding: 10px;
+	color: white;
+	background-color: blue;
+	text-align: center;
+}
+
+h2 {
+    color: #33bfc9;
+}
+
+.rounded {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.gambar{
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+.card {
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.akuntansi{
+    height: 200px;
+    width: 200px;
+}
+.featured-image {
+	width: 100%;
+	max-height: 500px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.profile header {
+	text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    main #content,
+    main aside {
+        width: 100%;
+        padding: 0;
+    }
+ }
